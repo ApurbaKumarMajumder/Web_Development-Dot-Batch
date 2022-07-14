@@ -1,4 +1,3 @@
-// starting with promises
 function register() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -8,8 +7,6 @@ function register() {
   });
 }
 
-// promise works in three state:
-// resolve(query is completed), pending(work in progress) & reject(query for completed)
 function sendEmail() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -46,9 +43,24 @@ function displayUserData() {
   });
 }
 
-register()
-    .then(sendEmail)
-    .then(login)
-    .then(getUserData)
-    .then(displayUserData);
+// starting with Async await
+async function authenticate() {
+    try {
+        await register();
+        await sendEmail();
+        await login();
+        await getUserData();
+        await displayUserData();
+    } catch (err) {
+        console.log(err);
+        throw new Error();
+    }
+}
+
+authenticate().then(() => {
+    console.log("Registration process complete", "\n", "Thank you for chossing us.");
+})
+// .catch((err) => {
+//     console.log(err);
+// })
 console.log("Other application work!");
