@@ -15,3 +15,19 @@ function fn() {
     console.log("I can be called before my declaration");
 }
 fn();
+
+console.log("varName", varName);
+var varName;
+console.log("varName", varName);
+varName = "Captain America";
+console.log("varName", varName);
+fn();
+function fn() {
+    console.log("Hello from fn");
+}
+fn();
+fnContainer; // not working
+var fnContainer = function () {
+    console.log("I am an Expression");
+}
+fnContainer();
