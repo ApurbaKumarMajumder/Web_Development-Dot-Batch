@@ -17,4 +17,5 @@
     background-image: radial-gradient(red, blue);
     background-image: radial-gradient(red, blue, green);
     background-image: radial-gradient(circle, red, blue, green);
+    background-image: radial-gradient(red 10%, green 30%);
 }
