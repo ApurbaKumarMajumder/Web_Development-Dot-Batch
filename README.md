@@ -29,3 +29,13 @@ The overflow CSS shorthand provides scroll option for both sides. This could be
         scroll
         auto
 
+# 4. Position Property
+
+The position property specifies the type of positioning method used for an element 
+
+        Static (default)
+        Relative (relative to it's normal position)
+        Fixed ()
+        Absolute
+        Sticky
+
