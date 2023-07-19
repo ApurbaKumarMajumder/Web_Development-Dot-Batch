@@ -7,7 +7,7 @@ h1 {
     background-color: lightblue;
     width: 200px;
     height: 200px;
-    box-shadow: 10px 10px green;
+    box-shadow: 10px 10px 15px green, 15px 15px 15px brown;
     color: white;
 
 }

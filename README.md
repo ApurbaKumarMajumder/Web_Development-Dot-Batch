@@ -19,3 +19,13 @@ Css Gradients lets you display smooth transitions between two or more colors.
 This property accepts a comma-separated list of shadows to be applied to the text.
 
         text-shadow: horizontal distance(px), vertical distance(3px), Opacity (1 to 100), color1, ...
+
+# 3. Overflow Property
+
+The overflow CSS shorthand provides scroll option for both sides. This could be 
+
+        Visible
+        Hidden
+        scroll
+        auto
+
