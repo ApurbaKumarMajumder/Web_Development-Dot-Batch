@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(225, 206, 206);
+}
+
+/* p {
+    position: static;
+    color: blue;
+} */
+
+p {
+    position: relative;
+}

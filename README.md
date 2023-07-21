@@ -35,7 +35,7 @@ The position property specifies the type of positioning method used for an eleme
 
         Static (default)
         Relative (relative to it's normal position)
-        Fixed ()
+        Fixed
         Absolute
         Sticky
 
