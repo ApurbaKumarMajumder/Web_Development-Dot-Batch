@@ -39,3 +39,14 @@ The position property specifies the type of positioning method used for an eleme
         Absolute
         Sticky
 
+# 5. FlexBox
+
+The flex container becomes flexible by setting the display property to flex.
+
+        Flex-direction (row, column, reverse)
+        flex-wrap (wrap, nowrap, wrap-reverse)
+        flex-flow (shorthand notation for above two)
+        justify-content (allign elements on main axis[x-axis])
+        align-items (align item on cross axis[y-axis])
+        align-content
+
