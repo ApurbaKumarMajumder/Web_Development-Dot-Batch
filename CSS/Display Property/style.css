@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    /* padding: 100px; */
+    box-sizing: border-box;
+}
+
+span {
+    border: 1px solid blue;
+    width: 400px; /*will not work*/
+    height: 300px; /*will not work*/
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}

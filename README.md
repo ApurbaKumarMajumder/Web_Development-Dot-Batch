@@ -39,7 +39,15 @@ The position property specifies the type of positioning method used for an eleme
         Absolute
         Sticky
 
-# 5. FlexBox
+# 5. Display Property
+
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+        inline-block
+        inline
+        block
+
+# 6. FlexBox
 
 The flex container becomes flexible by setting the display property to flex.
 
@@ -50,4 +58,3 @@ The flex container becomes flexible by setting the display property to flex.
         align-items (align item on cross axis[y-axis])
         align-content
 
- 
