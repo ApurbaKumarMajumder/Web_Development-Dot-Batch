@@ -1,0 +1,17 @@
+.box {
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.item {
+    height: 300px;
+    width: 300px;
+    margin: 2px;
+    background-color: aqua;
+    border: 1px solid red;
+    float: left;
+}
+
+#item3 {
+    float: right;
+}
