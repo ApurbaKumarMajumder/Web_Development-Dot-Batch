@@ -29,15 +29,25 @@ The overflow CSS shorthand provides scroll option for both sides. This could be
         scroll
         auto
 
-# 4. Position Property
+# 4. Position Property ( By Default it is STATIC )
 
-The position property specifies the type of positioning method used for an element 
+Relative 
+1. It should be in a cureent window.
+2. Gap is maintained in this.
+3. You can use Top , Bottom , Right , Left properties. 
 
-        Static (default)
-        Relative (relative to it's normal position)
-        Fixed
-        Absolute
-        Sticky
+Absolute 
+1. Relative to its closest position ancestor / parent. 
+2. It does not maintain Gap.
+3. You can use Top , Bottom , Right , Left properties. 
+
+Sticky
+1. IT should be sticky when it is in his parent class (related to parent container ).
+2. You can use Top , Bottom , Right , Left properties. 
+
+Fixed 
+1. It should be fixed in whole the page / containers.
+2. You can use Top , Bottom , Right , Left properties.  
 
 # 5. Display Property
 
