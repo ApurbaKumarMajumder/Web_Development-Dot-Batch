@@ -32,7 +32,7 @@ The overflow CSS shorthand provides scroll option for both sides. This could be
 # 4. Position Property ( By Default it is STATIC )
 
 Relative 
-1. It should be in a cureent window.
+1. It should be in a current window.
 2. Gap is maintained in this.
 3. You can use Top , Bottom , Right , Left properties. 
 
