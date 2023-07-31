@@ -41,6 +41,14 @@
 
 .container {
     background-color: beige;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    /* flex-flow: column; */
+    height: 500px;
 }
 
 #box1 {
@@ -57,4 +65,12 @@
 
 #box4 {
     background-color: brown;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+    margin: 2px;
+    padding: 2px;
 }
