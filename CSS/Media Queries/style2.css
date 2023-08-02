@@ -36,3 +36,9 @@ img {
 p {
     border: 1px solid red;
 }
+
+@media (max-width: 940px) {
+    .container {
+        flex-direction: column;
+    }
+}
