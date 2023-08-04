@@ -9,6 +9,8 @@
     width: 100vw;
     overflow: none none; /*x-axis y-axis*/
     background-color: beige;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
 }
 
 .navContainer {
@@ -53,4 +55,22 @@ a {
     display: flex;
     gap: 40px;
     margin-right: 50px;
+}
+
+.footerBox {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: azure;
+    width: 100%;
+    /* text-align: center; */
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.footerBox p {
+    color: azure;
+    font-size: 2rem;
 }
